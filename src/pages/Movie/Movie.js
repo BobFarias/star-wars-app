@@ -101,7 +101,7 @@ export default function Movie({match}) {
                       <p>Director: {movie.director}</p>
                     </div>
                     <div>
-                      <p>Producer: {data.producer}</p>
+                      <p>Producer: {movie.producer}</p>
                     </div>
                     <div className="button-movie" onClick={() => characterRequest(i)}>
                       <p>Character</p>

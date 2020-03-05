@@ -7,7 +7,7 @@ import Movie from '../pages/Movie/Movie';
 export default function Routes() {
   return (
     <Switch>
-      <Route path="/home" component={Home} />
+      <Route path="/" component={Home} />
       <Route path="/movie/:search" exact component={Movie} />
     </Switch>
   );

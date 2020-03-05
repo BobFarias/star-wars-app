@@ -11,7 +11,7 @@ import history from './../../services/history';
 export default() => {
 
     function goHome(){
-        history.push('/home');
+        history.push('/');
     }
 
     return(

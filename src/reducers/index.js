@@ -1,0 +1,6 @@
+import { requestData } from './requestData';
+import { combineReducers } from 'redux';
+
+export const Reducers = combineReducers({
+  requestData: requestData,
+});

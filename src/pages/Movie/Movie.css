@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'Bebas Neue', cursive;
+    src: url(./../../assets/fonts/BebasNeue-Regular.ttf);
+}
+
+.container-fluid {
+    height: 100vh;
+    position: relative;
+    width: 100%;
+    display: grid;
+    align-items: flex-end;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    background: black;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.row-movie-page{
+    height: 80%;
+}
+  
+.left-container{
+    display: flex;
+    align-items: flex-end;
+}
+
+.row-movie{
+    padding: 20px 0 20px 0;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+
+.container-box-movie{
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: white;
+    max-height: 400px;
+    max-width: 100%;
+    margin-right: 50px;
+    overflow: auto;
+}
+
+.container-img-movie{
+    width: 40%;
+}
+
+.container-img-movie img{
+    width: 90%;
+}
+
+.container-info-movie-single{
+    width: 60%;
+    overflow: auto;
+}
+
+.container-info-movie-single div{
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    margin-bottom: 10px;
+}
+
+.container-info-movie-single div p{
+    padding: 0;
+    margin: 0;
+    padding-left: 10px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+}
+
+.button-movie{
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+    transition: 1s;
+    align-items: center;
+}
+
+.button-movie p{
+    margin: 0 0 10px 0px;
+    padding-left: 10px;
+}
+
+
+.button-movie:hover{
+    background-color: black;
+    color: white;
+}
+
+
+.character-container div{
+    padding: 10px;
+    background: #e1e1e1;
+    border: none;
+}
+
+
+.character-container div p{
+    font-size: 14px;
+}
+
+.row-movie-page h3{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 24px;
+    color: #616161;
+}
+
+.row-movie-page .center-container{
+    display: flex;
+    align-items: baseline;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .row-movie-page .center-container {
+        padding: 30px;
+    }
+
+    .container-box-movie {
+        margin-right: 0px !important;
+    }
+}

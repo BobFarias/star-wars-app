@@ -1,0 +1,44 @@
+.button-primary{
+    background: transparent;
+    border-style: solid;
+    border-color: #e00052;
+    box-shadow: 1px 1px 3px 1px #e00052;
+    color: #616161;
+    font-family: 'Bebas Neue', cursive;
+    min-height: 30px;
+    padding: 0;
+    font-size: 20px;
+    min-width: 100px;
+    border-radius: 5px;
+    margin-right: 20px;
+    transition: 1s;
+    padding: 0 5px;
+}
+
+.button-primary:hover{
+    box-shadow: 1px 1px 5px 5px #e00052;
+    color: white;
+}
+
+
+.button-secundary{
+    background: transparent;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #616161;
+    color: #616161;
+    font-family: 'Bebas Neue', cursive;
+    min-height: 30px;
+    padding: 0;
+    font-size: 20px;
+    min-width: 100px;
+    border-radius: 5px;
+    margin-right: 20px;
+    transition: 1s;
+    padding: 0 5px;
+}
+
+.button-secundary:hover{
+    color: white;
+}
+

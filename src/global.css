@@ -1,0 +1,19 @@
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  .toast-success {
+    background: #006634;
+  }
+  
+  .toast-error {
+    background: #EC1313;
+  }
+  
+  .toast-warn {
+    background: #F2C94C;
+  }
+  
+  .toast-info {
+    background: #C4C4C4;
+  }

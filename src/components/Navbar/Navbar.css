@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Bebas Neue', cursive;
+    src: url(./../../assets/fonts/BebasNeue-Regular.ttf);
+}
+
+
+.navbar-starwars{
+    position: fixed !important;
+    padding: 0 !important;
+    width: 100%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    margin-top: 15px;
+    justify-content: center !important;
+}
+
+.navbar-starwars a{
+    font-family: 'Bebas Neue', cursive;
+    color: white !important;
+    font-size: 20px;
+    transition: 1s;
+}
+
+.navbar-starwars a:hover{
+    color: #00bfa6 !important;
+}
+
+.navbar-starwars div:first-child{
+    margin-right: 50px;
+}
+
+.navbar-starwars div:last-child{
+    margin-left: 50px;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .navbar-light .navbar-brand {
+        color: rgba(0,0,0,.9);
+        padding: 0;
+        margin: 0;
+    }
+}

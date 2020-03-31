@@ -92,7 +92,7 @@ export default function Home() {
             </Col>
             <Col className="center-container" lg={4} md={4} sm={12}>
               <div>
-                <h1>Star Wars app challenge</h1>
+                <h1>Star Wars app - Bob Henrique Farias</h1>
                 <h5>
                   Go on and try to search your favorite movie or character from Star Wars Saga.
                 </h5>

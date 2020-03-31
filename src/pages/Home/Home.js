@@ -94,7 +94,7 @@ export default function Home() {
               <div>
                 <h1>Star Wars app challenge</h1>
                 <h5>
-                  There is a React app for a challenge by the company Tricks. Go on and try to search your favorite movie or character from Star Wars Saga.
+                  Go on and try to search your favorite movie or character from Star Wars Saga.
                 </h5>
                 {
                   type_search === ""
